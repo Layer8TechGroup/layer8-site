@@ -1,0 +1,10 @@
+# Short alias redirects → canonical two-level URLs
+/exit-readiness/          /transaction-intelligence/exit-readiness/    301
+/exit-readiness           /transaction-intelligence/exit-readiness/    301
+/due-diligence/           /transaction-intelligence/due-diligence/     301
+/due-diligence            /transaction-intelligence/due-diligence/     301
+/franchise/               /transaction-intelligence/franchise/         301
+/franchise                /transaction-intelligence/franchise/         301
+/ocaas/                   /ai-services/ocaas/                          301
+/ocaas                    /ai-services/ocaas/                          301
+/ai-services/ocaas        /ai-services/ocaas/                          301
