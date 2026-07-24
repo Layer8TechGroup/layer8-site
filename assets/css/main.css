@@ -607,3 +607,107 @@ p { font-size: 16px; line-height: 1.75; color: var(--mgray); }
     align-items: flex-start;
   }
 }
+
+/* ── Deal Room: Numbered Steps ── */
+.step-card {
+  background: white;
+  border-radius: 12px;
+  padding: 26px 24px;
+  box-shadow: 0 2px 12px rgba(30,39,97,0.06);
+  border-left: 4px solid var(--teal);
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+}
+.step-num {
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: 34px;
+  line-height: 1;
+  color: var(--teal);
+  flex-shrink: 0;
+  min-width: 44px;
+}
+.step-card h4 { font-size: 17px; color: var(--navy); margin-bottom: 6px; }
+.step-card p { font-size: 14px; color: var(--mgray); line-height: 1.7; margin: 0; }
+
+/* ── Deal Room: Check Lists (inside cards) ── */
+.check-list { list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-direction: column; gap: 9px; }
+.check-list li {
+  position: relative;
+  padding-left: 24px;
+  font-size: 14px;
+  color: var(--dgray);
+  line-height: 1.55;
+}
+.check-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--teal);
+  font-weight: 700;
+  font-size: 13px;
+}
+.feature-card.gold-accent .check-list li::before { color: var(--gold); }
+
+/* ── Deal Room: AI Flag Rows ── */
+.flag-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: white;
+  padding: 16px 20px;
+  border-radius: 10px;
+  border-left: 4px solid var(--amber);
+  box-shadow: 0 2px 10px rgba(30,39,97,0.05);
+}
+.flag-icon { font-size: 18px; flex-shrink: 0; }
+.flag-row p { font-size: 14px; color: var(--dgray); margin: 0; line-height: 1.5; }
+
+/* ── Deal Room: Pricing Cards ── */
+.price-card {
+  position: relative;
+  background: white;
+  border-radius: 14px;
+  padding: 32px 28px;
+  box-shadow: 0 2px 12px rgba(30,39,97,0.06);
+  border-top: 3px solid var(--teal);
+  display: flex;
+  flex-direction: column;
+}
+.price-card.featured {
+  border-top-color: var(--gold);
+  box-shadow: var(--shadow-lg);
+}
+.price-badge {
+  position: absolute;
+  top: -12px;
+  right: 24px;
+  background: var(--gold);
+  color: #3a2f0b;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+.price-tier {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 8px;
+}
+.price-card.featured .price-tier { color: var(--gold); }
+.price-card h3 { font-size: 22px; color: var(--navy); margin-bottom: 10px; }
+.price-amount {
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: 36px;
+  color: var(--navy);
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.price-card .check-list { margin-bottom: 24px; }
+.price-card .btn { margin-top: auto; align-self: flex-start; }
