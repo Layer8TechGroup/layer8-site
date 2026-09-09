@@ -72,6 +72,32 @@ When verifying, **curl a nonsense path with a cache-busting query string first**
 — a plain path may still be served from Cloudflare's edge cache from before the
 fix, and will lie to you.
 
+## Issue convention
+
+Every card carries a **milestone**, at least one **label**, a `## Done when`, and a
+`## Depends on` (written `none` where there is none). Milestones are **AI Services**,
+**Site Integrity**, and **Site Debt**. Labels follow the sibling repos'
+conventions; `decision` marks a card that blocks work until it is resolved.
+
+### The `done` label is retired — do not reintroduce it
+
+A `done` label was created with the first batch of cards and has been **deleted
+repo-wide**. It should not come back.
+
+The problem: a card labelled `done` while the work is not in production reads as
+evidence, and it is not. It asserts a state of the world that only a production
+probe can establish, and it asserts it from inside the tracker, where nothing
+checks it. **That is the same trap as the soft-404** — a reading that looks like
+an answer and is not. It is the trap this repo has now been bitten by twice
+(see the Soft-404 section above, and the HTTP 103 Early Hints note on issue #13).
+
+Issue state already carries that meaning, and carries it honestly: a card is
+closed when the work is verified in production, with the merge commit, the
+production deployment ID, and the probe results in the closing comment. The
+label duplicated that badly, and could contradict it silently.
+
+**Close the card. Do not label it.**
+
 ## Screenshots
 
 ### Homepage — desktop
