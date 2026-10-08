@@ -4,19 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Layer8 Tech Group — Fractional Technology Leadership &amp; AI Advisory</title>
-  <meta name="description" content="Enterprise-grade technology leadership right-sized for your business. Fractional CIO/CTO, cloud infrastructure, and AI automation. 35+ years enterprise experience. Marietta, Georgia.">
+  <meta name="description" content="Fractional CIO/CTO, cloud infrastructure, and AI automation for growing businesses. 35+ years enterprise experience. Marietta, Georgia.">
   <link rel="canonical" href="https://layer8techgroup.com/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Layer8 Tech Group">
   <meta property="og:title" content="Layer8 Tech Group — Fractional Technology Leadership &amp; AI Advisory">
-  <meta property="og:description" content="Enterprise-grade technology leadership right-sized for your business. Fractional CIO/CTO, cloud infrastructure, and AI automation. 35+ years enterprise experience. Marietta, Georgia.">
+  <meta property="og:description" content="Fractional CIO/CTO, cloud infrastructure, and AI automation for growing businesses. 35+ years enterprise experience. Marietta, Georgia.">
   <meta property="og:url" content="https://layer8techgroup.com/">
   <meta property="og:image" content="https://layer8techgroup.com/assets/images/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Layer8 Tech Group — Fractional Technology Leadership &amp; AI Advisory">
-  <meta name="twitter:description" content="Enterprise-grade technology leadership right-sized for your business. Fractional CIO/CTO, cloud infrastructure, and AI automation. 35+ years enterprise experience. Marietta, Georgia.">
+  <meta name="twitter:description" content="Fractional CIO/CTO, cloud infrastructure, and AI automation for growing businesses. 35+ years enterprise experience. Marietta, Georgia.">
   <meta name="twitter:image" content="https://layer8techgroup.com/assets/images/og-image.jpg">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
@@ -26,30 +26,97 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Layer8 Tech Group",
-    "url": "https://layer8techgroup.com",
-    "description": "Fractional technology leadership and AI advisory firm",
-    "telephone": "+14046427589",
-    "email": "john.wallace@layer8techgroup.com",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Marietta",
-      "addressRegion": "GA",
-      "addressCountry": "US"
-    },
-    "founder": {
-      "@type": "Person",
-      "name": "John Wallace"
-    },
-    "knowsAbout": [
-      "Fractional CIO",
-      "Fractional CTO",
-      "Cloud Architecture",
-      "AI Integration",
-      "Microsoft 365",
-      "HIPAA Compliance",
-      "Business Exit Readiness"
+    "@graph": [
+      {
+        "@type": ["LocalBusiness", "ProfessionalService"],
+        "@id": "https://layer8techgroup.com/#business",
+        "name": "Layer8 Tech Group",
+        "alternateName": "Layer8 Tech Group LLC",
+        "url": "https://layer8techgroup.com",
+        "logo": "https://layer8techgroup.com/assets/img/layer8-logo.png",
+        "image": "https://layer8techgroup.com/assets/images/og-image.jpg",
+        "description": "Fractional CIO/CTO, cloud infrastructure, and AI automation for growing businesses. Enterprise-grade technology leadership right-sized for SMBs.",
+        "telephone": "+14046427589",
+        "email": "info@layer8techgroup.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Marietta",
+          "addressRegion": "GA",
+          "postalCode": "30062",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 33.9526,
+          "longitude": -84.5499
+        },
+        "areaServed": [
+          {"@type": "City", "name": "Marietta", "sameAs": "https://en.wikipedia.org/wiki/Marietta,_Georgia"},
+          {"@type": "City", "name": "Atlanta"},
+          {"@type": "State", "name": "Georgia"},
+          {"@type": "Country", "name": "United States"}
+        ],
+        "founder": {
+          "@type": "Person",
+          "name": "John Wallace",
+          "jobTitle": "Founder & Senior Partner",
+          "worksFor": {"@id": "https://layer8techgroup.com/#business"}
+        },
+        "foundingDate": "2025",
+        "numberOfEmployees": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 10},
+        "priceRange": "$$",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Technology Services",
+          "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Fractional CIO / CTO"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AI & Automation"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Cloud Infrastructure"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "HIPAA Compliance"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Technology Advisory"}}
+          ]
+        },
+        "sameAs": [
+          "https://github.com/Layer8TechGroup"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://layer8techgroup.com/#website",
+        "url": "https://layer8techgroup.com",
+        "name": "Layer8 Tech Group",
+        "publisher": {"@id": "https://layer8techgroup.com/#business"}
+      },
+      {
+        "@type": "Service",
+        "@id": "https://layer8techgroup.com/#service-automation",
+        "name": "AI & Automation for Service Businesses",
+        "serviceType": "AI Automation",
+        "description": "AI receptionist, missed-call text-back, appointment booking, lead capture, and CRM automation for local service businesses.",
+        "provider": {"@id": "https://layer8techgroup.com/#business"},
+        "areaServed": {"@type": "Country", "name": "United States"},
+        "url": "https://layer8techgroup.com/ai-services/automation/"
+      },
+      {
+        "@type": "Service",
+        "@id": "https://layer8techgroup.com/#service-advisory",
+        "name": "Fractional CIO & Technology Advisory",
+        "serviceType": "Technology Consulting",
+        "description": "Fractional CIO and CTO leadership, cloud architecture, HIPAA compliance, identity management, and AI strategy for SMBs.",
+        "provider": {"@id": "https://layer8techgroup.com/#business"},
+        "areaServed": {"@type": "Country", "name": "United States"},
+        "url": "https://layer8techgroup.com/advisory/"
+      },
+      {
+        "@type": "Service",
+        "@id": "https://layer8techgroup.com/#service-infrastructure",
+        "name": "Cloud Infrastructure & Identity Management",
+        "serviceType": "Cloud Services",
+        "description": "Cloud migration, Microsoft 365, Azure, AWS, GCP, Okta SSO, Entra ID, Intune, and Jamf for growing businesses.",
+        "provider": {"@id": "https://layer8techgroup.com/#business"},
+        "areaServed": {"@type": "Country", "name": "United States"},
+        "url": "https://layer8techgroup.com/advisory/#infrastructure"
+      }
     ]
   }
   </script>
