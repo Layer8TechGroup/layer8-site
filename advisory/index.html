@@ -32,23 +32,25 @@
 <nav class="nav">
   <div class="nav-inner">
     <a href="/" class="nav-brand">Layer<span>8</span> Tech Group</a>
-    <ul class="nav-links">
+        <ul class="nav-links">
       <li class="nav-dropdown">
-        <a href="#">Products</a>
+        <a href="#">Services</a>
         <div class="dropdown-menu">
-          <a href="/transaction-intelligence/">📈 Transaction Intelligence<small>Exit · Diligence · Franchise</small></a>
-          <a href="/transaction-intelligence/exit-readiness/">📊 Exit Readiness Assessment<small>For business sellers &amp; their advisors</small></a>
-          <a href="/transaction-intelligence/due-diligence/">🔍 Due Diligence Assessment<small>For acquirers and buy-side advisors</small></a>
-          <a href="/transaction-intelligence/franchise/">🏢 Franchise Evaluation Suite<small>FOE, FCR, FRA — FDD-based scoring</small></a>
-          <a href="https://sellerdiligence.com" target="_blank">🏷️ SellerDiligence ↗<small>Seller-side intelligence platform</small></a>
-          <a href="https://transactiondiligence.com" target="_blank">⚖️ TransactionDiligence ↗<small>Buy-side &amp; sell-side M&amp;A practice</small></a>
-          <a href="#" style="opacity:0.5;cursor:default;">🔧 CompanyTuneUp<small>Business health assessment — coming soon</small></a>
+          <a href="/ai-services/automation/">🤖 AI &amp; Automation<small>Capture leads, book jobs, automate follow-up</small></a>
+          <a href="/advisory/">🎯 Technology Advisory<small>Fractional CIO / CTO · cloud · compliance</small></a>
+          <a href="/advisory/#infrastructure">🏗️ Infrastructure<small>Cloud architecture · identity · security</small></a>
         </div>
       </li>
-      <li><a href="/advisory/">Advisory</a></li>
+      <li class="nav-dropdown">
+        <a href="#">Assessment Tools</a>
+        <div class="dropdown-menu">
+          <a href="https://companytuneup.com" target="_blank">🔧 CompanyTuneUp ↗<small>Business health assessment — 8 domains</small></a>
+          <a href="https://sellerdiligence.com" target="_blank">📊 SellerDiligence ↗<small>Exit readiness and valuation protection</small></a>
+          <a href="https://transactiondiligence.com" target="_blank">⚖️ TransactionDiligence ↗<small>Buy-side &amp; sell-side M&amp;A practice</small></a>
+        </div>
+      </li>
       <li><a href="/about/">About</a></li>
-      <li><a href="mailto:info@layer8techgroup.com">Contact</a></li>
-      <li><a href="https://intake.layer8techgroup.com" class="nav-cta">Get Started →</a></li>
+      <li><a href="https://calendly.com/jwallace-layer8techgroup/discovery-call" class="nav-cta" target="_blank">Schedule a Call →</a></li>
     </ul>
     <div class="hamburger"><span></span><span></span><span></span></div>
   </div>
@@ -78,14 +80,14 @@
   <div class="container">
     <div class="text-center mb-48">
       <div class="section-eyebrow">Service Lines</div>
-      <h2>Three Ways We Engage.</h2>
+      <h2>Six Ways We Engage.</h2>
       <p class="section-sub mx-auto">Every engagement starts with a 30-minute scoping conversation — no retainer commitment required until we've agreed on scope and outcome.</p>
     </div>
     <div class="grid-3">
       <div class="feature-card gold-accent fade-up">
         <div class="feature-icon">🏗</div>
         <h4>Fractional CIO / CTO</h4>
-        <p>Technology leadership without the full-time executive cost. Strategy, vendor management, team oversight, board-level reporting, and technology roadmap ownership. 1–4 days per month.</p>
+        <p>Technology leadership without the full-time executive cost. Strategy, vendor management, team oversight, board-level reporting, and roadmap ownership. 1–4 days per month.</p>
         <ul style="margin-top:14px;padding-left:16px;font-size:13px;color:var(--mgray);line-height:2;">
           <li>Technology strategy and roadmap</li>
           <li>Vendor selection and contract negotiation</li>
@@ -95,24 +97,57 @@
       </div>
       <div class="feature-card gold-accent fade-up delay-1">
         <div class="feature-icon">☁️</div>
-        <h4>Cloud &amp; Infrastructure</h4>
-        <p>Azure, AWS, M365, Google Workspace, and hybrid environments. Migration planning, architecture design, and implementation from practitioners who've done it at enterprise scale.</p>
+        <h4>Cloud Migration &amp; Architecture</h4>
+        <p>Azure, AWS, GCP, M365, and hybrid environments. Migration planning, architecture design, and IaC implementation from practitioners who've done it at enterprise scale.</p>
         <ul style="margin-top:14px;padding-left:16px;font-size:13px;color:var(--mgray);line-height:2;">
           <li>Cloud migration planning and execution</li>
+          <li>Infrastructure as Code (Terraform)</li>
           <li>Microsoft 365 and Entra ID architecture</li>
-          <li>Okta SSO and identity management</li>
-          <li>Jamf + Intune device management</li>
+          <li>Hybrid and multi-cloud environments</li>
         </ul>
       </div>
       <div class="feature-card gold-accent fade-up delay-2">
+        <div class="feature-icon">🔐</div>
+        <h4>Identity Management</h4>
+        <p>Zero-trust identity architecture for growing organizations. Okta, Entra ID, and device management that scales with your business without slowing it down.</p>
+        <ul style="margin-top:14px;padding-left:16px;font-size:13px;color:var(--mgray);line-height:2;">
+          <li>Okta SSO and lifecycle automation</li>
+          <li>Microsoft Entra ID architecture</li>
+          <li>Jamf + Intune device management</li>
+          <li>MFA enforcement and zero-trust policy</li>
+        </ul>
+      </div>
+      <div class="feature-card gold-accent fade-up">
         <div class="feature-icon">🔒</div>
-        <h4>Compliance &amp; Security</h4>
-        <p>HIPAA, SOC 2, and PCI compliance frameworks built by practitioners with experience implementing these at CVS Health and Aetna scale — not consultants reading the frameworks for the first time.</p>
+        <h4>HIPAA &amp; Compliance</h4>
+        <p>HIPAA, SOC 2, and PCI compliance frameworks built by practitioners with CVS Health and Aetna experience — not consultants reading the frameworks for the first time.</p>
         <ul style="margin-top:14px;padding-left:16px;font-size:13px;color:var(--mgray);line-height:2;">
           <li>HIPAA Security Rule implementation</li>
           <li>SOC 2 Type I and Type II readiness</li>
           <li>Security posture assessment</li>
           <li>Incident response planning</li>
+        </ul>
+      </div>
+      <div class="feature-card gold-accent fade-up delay-1">
+        <div class="feature-icon">🤖</div>
+        <h4>AI &amp; Automation Strategy</h4>
+        <p>Move beyond AI hype to practical deployment. Identify where AI creates real leverage in your operations, build a roadmap, and implement with your team's capability in mind.</p>
+        <ul style="margin-top:14px;padding-left:16px;font-size:13px;color:var(--mgray);line-height:2;">
+          <li>AI readiness and opportunity assessment</li>
+          <li>Tool selection and vendor evaluation</li>
+          <li>Workflow automation design</li>
+          <li>AI training and team enablement</li>
+        </ul>
+      </div>
+      <div class="feature-card gold-accent fade-up delay-2">
+        <div class="feature-icon">🗺️</div>
+        <h4>Technology Assessment &amp; Roadmap</h4>
+        <p>Know exactly where your technology stands and where it needs to go. Structured assessment across infrastructure, security, and operations — with a prioritized, actionable roadmap.</p>
+        <ul style="margin-top:14px;padding-left:16px;font-size:13px;color:var(--mgray);line-height:2;">
+          <li>Current-state technology audit</li>
+          <li>Gap analysis and risk identification</li>
+          <li>Prioritized remediation roadmap</li>
+          <li>Budget and timeline planning</li>
         </ul>
       </div>
     </div>
@@ -256,11 +291,11 @@
       </a>
       <div class="footer-tagline">Solving the Human Layer of Technology</div>
     </div>
-    <div class="footer-brand-cta">
-      <a href="https://exit-readiness.layer8techgroup.com" target="_blank">Exit Readiness Demo ↗</a>
-      <a href="https://due-diligence.layer8techgroup.com" target="_blank">Due Diligence Demo ↗</a>
-      <a href="https://franchise.layer8techgroup.com" target="_blank">Franchise Demo ↗</a>
-      <a href="https://intake.layer8techgroup.com">Get Started →</a>
+        <div class="footer-brand-cta">
+      <a href="https://calendly.com/jwallace-layer8techgroup/discovery-call" target="_blank">Schedule a Call →</a>
+      <a href="https://companytuneup.com" target="_blank">CompanyTuneUp ↗</a>
+      <a href="https://sellerdiligence.com" target="_blank">SellerDiligence ↗</a>
+      <a href="https://transactiondiligence.com" target="_blank">TransactionDiligence ↗</a>
     </div>
   </div>
 </div>
@@ -273,8 +308,23 @@
         <p>Enterprise technology leadership for SMBs that need it without the full-time cost.</p>
         <p style="margin-top:12px;"><a href="mailto:info@layer8techgroup.com" style="color:var(--teal-l);">info@layer8techgroup.com</a> · 404-642-7589</p>
       </div>
-      <div><h5>Products</h5><ul class="footer-links"><li><a href="/transaction-intelligence/exit-readiness/">Exit Readiness</a></li><li><a href="/transaction-intelligence/due-diligence/">Due Diligence</a></li><li><a href="/transaction-intelligence/franchise/">Franchise Suite</a></li></ul></div>
-      <div><h5>Advisory</h5><ul class="footer-links"><li><a href="/advisory/">Fractional CIO/CTO</a></li><li><a href="/advisory/">Cloud &amp; Infrastructure</a></li><li><a href="/advisory/">Compliance &amp; Security</a></li></ul></div>
+            <div>
+        <h5>Services</h5>
+        <ul class="footer-links">
+          <li><a href="/ai-services/automation/">AI &amp; Automation</a></li>
+          <li><a href="/advisory/">Technology Advisory</a></li>
+          <li><a href="/advisory/#infrastructure">Cloud Infrastructure</a></li>
+          <li><a href="/ai-services/ocaas/">OCaaS — Oversight as a Service</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Assessment Tools</h5>
+        <ul class="footer-links">
+          <li><a href="https://companytuneup.com" target="_blank">CompanyTuneUp ↗</a></li>
+          <li><a href="https://sellerdiligence.com" target="_blank">SellerDiligence ↗</a></li>
+          <li><a href="https://transactiondiligence.com" target="_blank">TransactionDiligence ↗</a></li>
+        </ul>
+      </div>
       <div><h5>Company</h5><ul class="footer-links"><li><a href="/about/">About</a></li><li><a href="/about/#governance">AI Governance</a></li><li><a href="https://github.com/Layer8TechGroup" target="_blank">GitHub ↗</a></li></ul></div>
     </div>
     <div class="footer-bottom"><span>© 2026 Layer8 Tech Group LLC</span><div style="display:flex;gap:20px;"><a href="/about/#governance">AI Governance</a><a href="mailto:info@layer8techgroup.com">Contact</a></div></div>
