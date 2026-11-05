@@ -10,3 +10,17 @@
 /ai-services/ocaas        /ai-services/ocaas/                          301
 /ai-services/ai-spend/    /advisory/ai-spend/                          301
 /ai-services/ai-spend     /advisory/ai-spend/                          301
+
+# Infrastructure sub-pages consolidated into /infrastructure/ (GA SB 553 remediation)
+/infrastructure/cabling/          /infrastructure/                             301
+/infrastructure/cabling           /infrastructure/                             301
+/infrastructure/wifi/             /infrastructure/                             301
+/infrastructure/wifi              /infrastructure/                             301
+/infrastructure/av/               /infrastructure/                             301
+/infrastructure/av                /infrastructure/                             301
+/infrastructure/cctv/             /infrastructure/                             301
+/infrastructure/cctv              /infrastructure/                             301
+/infrastructure/fiber/            /infrastructure/                             301
+/infrastructure/fiber             /infrastructure/                             301
+/infrastructure/access-control/   /infrastructure/                             301
+/infrastructure/access-control    /infrastructure/                             301

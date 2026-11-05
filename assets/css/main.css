@@ -711,3 +711,7 @@ p { font-size: 16px; line-height: 1.75; color: var(--mgray); }
 }
 .price-card .check-list { margin-bottom: 24px; }
 .price-card .btn { margin-top: auto; align-self: flex-start; }
+
+/* ── Disclaimer utilities ── */
+.text-muted { color: var(--mgray); }
+.py-3 { padding-top: 16px; padding-bottom: 16px; }
